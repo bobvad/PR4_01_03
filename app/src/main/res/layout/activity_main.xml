@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="107dp"
-        android:layout_height="99dp"
+        android:layout_width="114dp"
+        android:layout_height="93dp"
         android:layout_marginTop="152dp"
         android:background="@drawable/border_radius"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,12 +61,14 @@
         android:layout_height="47dp"
         android:layout_marginTop="212dp"
         android:background="@drawable/border_radius"
+        android:onClick="onStepAge"
         android:text="Продолжить"
         android:textColor="#0099FF"
         android:textSize="15dp"
         android:textStyle="bold"
         android:theme="@style/Theme.AppCompat.Light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="54dp" />
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
