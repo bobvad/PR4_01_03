@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0099FF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="107dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/border_radius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="315dp"
+        android:layout_height="95dp"
+        android:backgroundTint="#B6B6B6"
+        android:text="Ничего себе ты большой, целых... лет ...\nКакого ты пола?"
+        android:textColor="#FBFBFB"
+
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:layout_width="304dp"
+        android:layout_height="47dp"
+        android:background="@drawable/border_radius"
+        android:text="Продолжить"
+        android:textColor="#0099FF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#FFFFFF"
+        android:text="Мужской"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="401dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:buttonTint="#FFFFFF"
+        android:text="Женский"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
