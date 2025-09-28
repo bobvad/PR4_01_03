@@ -24,7 +24,6 @@
         android:backgroundTint="#B6B6B6"
         android:text="Ничего себе ты большой, целых... лет ...\nКакого ты пола?"
         android:textColor="#FBFBFB"
-
         android:textSize="20sp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
